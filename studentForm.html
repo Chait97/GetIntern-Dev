@@ -1,0 +1,76 @@
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Student Sign Up</title>
+      <link rel="stylesheet" href="sources/studentForm.css">
+  </head>
+  <body>
+
+    <form action="index.html" method="post">
+
+      <h1>Sign Up</h1>
+
+      <fieldset>
+        <legend><span class="number">1</span>Basic Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name">
+
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="user_password">
+
+        <label for="sAge">Age:</label>
+        <input type="number" id="sAge" name="student_age">
+
+        <label for="place">Place:</label>
+        <input type="text" id="place" name="user_place">
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="number">2</span>Education</legend>
+        <label for="college">College:</label>
+            <form method="POST">
+                <input list="browsers">
+                <datalist id="browsers">
+                    <option value="Indian Institute of Technology Hyderabad">
+                    <option value="International Institute of Information Technology Hyderabad">
+                    <option value="XYZ College">
+                </datalist>
+            </form>
+        <label for="Field">Field:</label>
+        <input type="text" id="Field" name="s_field">
+        <label for="Branch">Branch:</label>
+        <input type="text" id="branch" name="s_branch">
+        <label for="Semester">Semester:</label>
+        <input type="number" id="Semester" name="s_semester">
+        <label for="cgpa">CGPA out of 10:</label>
+        <input type="number" min="0" max="10" id="cgpa" name="s_cgpa">
+    </br>
+    </br>
+          <legend><span class="number">3</span>Your Internship</legend>
+        <label for="PoI">Fields of Interests:</label>
+        <input type="text" id="PoI" name="s_interest">
+        <p>Period of Internship</p>
+            <div class="twocol">
+                <div class="col1">
+                    <label for="dateIn">From:</label>
+                    <input type="date" id="dateIn" name="i_dateIn">
+                </div class="col2">
+                    <label for="dateOut">To:</label>
+                    <input type="date" id="dateOut" name="i_dateOut">
+                </div>
+            </div>
+
+        <label for="soft">Soft Skills:</label>
+        <input type="text" id="soft" name="s_soft">
+    </br>
+        <button type="submit">Create My Profile</button>
+      </fieldset>
+
+
+    </form>
+
+  </body>
+</html>

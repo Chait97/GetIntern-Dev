@@ -109,7 +109,7 @@ label.light {
 .2col {
     overflow: hidden;/* Makes this div contain its floats */
 }
-
+/*
 input[type="date"]{
     background: rgba(255,255,255,0.1);
     border: none;
@@ -137,7 +137,7 @@ input[type="date"]{
 }
 .twocol label {
     display: block;
-}
+}*/
 
 @media screen and (min-width: 480px) {
 

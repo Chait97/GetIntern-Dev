@@ -2,9 +2,14 @@
 /* =============================================================
 GENERAL STYLES
 ============================================================ */
+
+
 body {
 font-family: sans-serif;
-color: #fff;
+color: #ffffff;
+background-image: url(21.jpg);
+background-size:cover;
+background-attachment: fixed;
 }
 
 section {

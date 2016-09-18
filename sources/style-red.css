@@ -1,35 +1,10 @@
-<<<<<<< HEAD
-  ﻿/*=============================================================
-      Authour URL: www.designbootstrap.com
 
-      http://www.designbootstrap.com/
-
-      License: MIT
-
-      http://opensource.org/licenses/MIT
-
-      100% Free To use For Personal And Commercial Use.
-
-      IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
-
-  ========================================================  */
-
-
-  /* =============================================================
-  GOOGLE FONT
-  ============================================================ */
-
-  @import url(http://fonts.googleapis.com/css?family=Ubuntu); /* FREE GOOGLE FONT */
-  @import url(http://fonts.googleapis.com/css?family=Oswald); /* FREE GOOGLE FONT */
-
-
-
-  /* =============================================================
-  GENERAL STYLES
-  ============================================================ */
   body {
   font-family: 'Ubuntu', sans-serif;
   color: #fff;
+  background-image: url(21.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   }
 
   section {

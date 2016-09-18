@@ -1,0 +1,27 @@
+STAGE A
+
+1. Name
+    email
+    password
+    age
+
+2. College from list of recognised colleges
+3. Field
+4. Branch
+5. Year
+6. CGPA out of 10
+7. Areas of Interest: Tag format
+8. Date of Availability
+9. Places
+10. Soft Skills
+11. Upload Resume
+12. Upload Certificates
+13.
+
+//
+
+STAGE B
+
+Standardised IQ and Soft Skill Test (3rd Party)
+
+//

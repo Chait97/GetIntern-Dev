@@ -142,7 +142,7 @@ input[type="date"]{
 @media screen and (min-width: 480px) {
 
   form {
-    max-width: 600px;
+    max-width: 500px;
   }
 
 }

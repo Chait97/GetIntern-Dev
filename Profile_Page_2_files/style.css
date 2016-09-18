@@ -7,7 +7,9 @@ body{
     font-family: 'Open Sans', sans-serif;
 	margin:0;
 	padding:0;
-	background:url(../images/bg.png);
+	background:url(BG.png);
+    background-size: contain;
+    background-attachment: fixed;
  }
 body a{
 	transition:0.5s all;
@@ -17,7 +19,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;			   
+	margin:0;
 }
 p{
 	margin:0;
@@ -43,7 +45,7 @@ padding:0;
   float: none !important;
 }
 .header-right-text h3 {
-  font-family: 'Signika', sans-serif;
+  font-family: sans-serif;
   text-align: right;
   color: #fff;
   font-size: 1.1em;
@@ -57,7 +59,7 @@ padding:0;
   float: right;
 }
 .header-btn a {
-  font-family: 'Signika', sans-serif;
+  font-family:sans-serif;
   padding: 10px 16px;
   background-color: #a7a9ac;
   display: block;
@@ -99,7 +101,7 @@ padding:0;
 	padding:0;
 }
 .navbar-default .navbar-nav > li > a{
-	font-family: 'Signika', sans-serif;
+	font-family:sans-serif;
   color: #a7a9ac;
   font-size: 16px;
     padding: 0;
@@ -111,7 +113,7 @@ padding:0;
   float: none !important;
 }
  .nav > li {
-  font-family: 'Metamorphous', cursive;
+  font-family: sans-serif;;
   margin: 0 27px 0 !important;
 }
 .nav > li > a:hover {
@@ -134,7 +136,7 @@ ul.nav.navbar-nav li a.active {
 }
 .navbar-nav > li {
   display: inline-block !important;
-}	
+}
 .navbar-default {
   background-color: rgba(255, 255, 255, 0);
   border-color: rgba(255, 255, 255, 0);
@@ -159,8 +161,9 @@ ul.nav.navbar-nav {
   padding: 3em 0;
 }
 .header-top {
-  background: #b9cfed;
+  background: #5b5b5b;
     padding: 1em;
+    opacity: 70%;
 }
 /* Grid */
 .grid__item {
@@ -237,11 +240,11 @@ body #cdawrap {
   overflow: hidden;
   color: #a7a9ac;
   font-size: 8em;
-  font-family: 'Signika', sans-serif;
+  font-family: sans-serif;
   font-style: italic;
 }
 
-.link--ilin span {	
+.link--ilin span {
 	position: relative;
 	display: inline-block;
 	-webkit-transition: color 0.5s;
@@ -294,7 +297,7 @@ body #cdawrap {
   padding: 24px 0 30px;
   text-align: center;
   letter-spacing: 3px;
-  font-family: 'Signika', sans-serif;
+  font-family:sans-serif;
   font-style: italic;
 }
 .grid_2 h3 {
@@ -314,7 +317,7 @@ body #cdawrap {
 .study2 h4 {
   padding-bottom: 9px;
   font-size: 1.2em;
-  color: #000;
+  color: #ccc;
 }
 .progress-bar {
   -webkit-box-shadow: inset 0 0px 0 rgba(0, 0, 0, .15) !important;
@@ -377,7 +380,7 @@ body #cdawrap {
   float: left;
   background: #55acee;
   padding: 1em;
-  margin-right: 1px;  
+  margin-right: 1px;
   	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -479,6 +482,7 @@ body #cdawrap {
 }
 .b-link-stripe .b-wrapper{
 	position:absolute;
+    opacity: 20%;
 	width:100%;
 	height:100%;
 	top:0;
@@ -502,6 +506,7 @@ body #cdawrap {
 }
 img.img-responsive.glry-img {
   width: 100%;
+  opacity: 20%;
 }
 /*------Animation effects------*/
 .b-animate-go{
@@ -513,7 +518,7 @@ img.img-responsive.glry-img {
 	-ms-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	visibility: hidden;	
+	visibility: hidden;
 }
 .b-animate img{
 	display: -webkit-inline-box;
@@ -564,7 +569,7 @@ img.img-responsive.glry-img {
   position: relative;
   text-align: center;
   letter-spacing: 0px;
-  font-family: 'Signika', sans-serif;
+  font-family:sans-serif;
   font-style: italic;
 }
 .content_middle_bottom h4 {
@@ -611,6 +616,11 @@ img.img-responsive.glry-img {
   width: 100%;
   height: 328px;
 }
+
+.gallery-info{
+    opacity: 20%;
+}
+
 .grid_2 input[type="submit"] {
   -webkit-appearance: none;
   cursor: pointer;
@@ -636,7 +646,7 @@ img.img-responsive.glry-img {
 	-ms-transition:0.5s all;
 }
 .copy {
-  background: #b9cfed;
+  background: #5b5b55;
   padding: 2em 0;
   text-align: center;
 }
@@ -654,7 +664,7 @@ color: #A7A9AC;
   padding: 0 0 .8em;
   text-align: center;
   letter-spacing: 3px;
-  font-family: 'Signika', sans-serif;
+  font-family: sans-serif;
   font-style: italic;
 }
 #toTop {
@@ -670,16 +680,21 @@ color: #A7A9AC;
   text-indent: 100%;
   background: url("../images/to-top1.png") no-repeat 0px 0px;
 }
+
+
+
+
+
 /*--/contact-form--*/
 /*-- responsive-design --*/
 @media only screen and (max-width:1440px) {
-	
+
 }
 @media only screen and (max-width:1366px) {
-	
+
 }
 @media only screen and (max-width:1280px) {
-	
+
 }
 @media only screen and (max-width:1024px) {
 	.grid__item {
@@ -705,6 +720,9 @@ color: #A7A9AC;
 	}
 	.header-top {
 	  padding: 12px 0;
+
+      opacity: 70%;
+
 	}
 	.grid__item {
 	  width: 63%;
